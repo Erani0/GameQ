@@ -62,7 +62,7 @@ class Normalize extends Base
 
         // Check FiveM Player List
         if ($result['gq_protocol'] == "gta5m") {
-            $result['players'] = $this->getFiveMPlayerList(sprintf('%s:%s', $result['gq_address'], $result['gq_port_client']));
+            //$result['players'] = $this->getFiveMPlayerList(sprintf('%s:%s', $result['gq_address'], $result['gq_port_client']));
         }
 
         // Do player information
